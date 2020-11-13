@@ -1,11 +1,7 @@
 library(doremifasol)
 library(data.table)
-library(stringr)
-library(ggplot2)
 library(lest)
 library(magrittr)
-
-ggplot2::theme_set(theme_minimal())
 
 # Données à l'IRIS sur les revenus disponibles (géographie 2018)
 # https://www.insee.fr/fr/statistiques/4479212#consulter
