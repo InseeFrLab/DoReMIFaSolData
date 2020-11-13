@@ -71,7 +71,7 @@ variables_finales <-
     )
 
 data_iris_paris <- 
-  data_iris_paris[, .SD, .SDcols = variables_finales]
+  as.data.frame(data_iris_paris[, .SD, .SDcols = variables_finales])
 
 # Sauvegarder les données
 save(data_iris_paris, file = "data/data_iris_paris.rda")
