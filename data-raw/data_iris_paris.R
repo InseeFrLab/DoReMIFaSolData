@@ -79,17 +79,3 @@ data_iris_paris <-
 
 # Sauvegarder les données
 save(data_iris_paris, file = "data/data_iris_paris.rda")
-
-
-ggplot(data_iris_paris) + 
-  geom_point(aes(x = niveau_vie_median, y = taux_chomage))
-ggplot(data_iris_paris) + 
-  geom_point(aes(x = niveau_vie_median, y = taux_chomage, color = part_cadres)) + 
-  theme(legend.position = "bottom") + scale_color_continuous(type = "viridis")
-
-ggplot(data_iris_paris) + 
-  geom_bar(aes(x = COM))
-
-ggplot(data_iris_paris) + 
-  geom_point(aes(x = niveau_vie_median, y = taux_chomage, color = part_cadres)) +
-  facet_wrap(~ categorie_arrondissement, ncol = 1)
