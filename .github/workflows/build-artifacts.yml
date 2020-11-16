@@ -51,7 +51,7 @@ jobs:
       - name: Get package version
         if: runner.os == 'Linux'
         run: |
-          PKGVERSION=$(Rscript -e 'as.character(packageVersion("doremifasolData"))')
+          PKGVERSION=$(Rscript -e 'as.character(packageVersion("doremifasolData", lib.loc = "dist"))')
           regex='\"(.*)\"'
           [[ $PKGVERSION =~ $regex ]]
           export PKGVERSION=${BASH_REMATCH[1]}
