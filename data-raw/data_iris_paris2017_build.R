@@ -22,14 +22,14 @@ base_ic_activite_residents_2017[,
                                 c("LIBIRIS", "COM", "LIBCOM") := NULL]
 
 # Joindre les deux tables et ne conserver que Paris
-data_iris_paris <- 
+data_iris_paris2017 <- 
   BASE_TD_FILO_DISP_IRIS_2017[substr(COM, 1L, 2L) == "75"] %>%
   merge(base_ic_activite_residents_2017,
         by = "IRIS",
         all.x = TRUE)
 
 # Créer des variables utiles pour les exemples
-data_iris_paris[, 
+data_iris_paris2017[, 
                 `:=`(
                   part_cadres = C17_ACT1564_CS3 /C17_ACT1564,
                   taux_chomage = P17_CHOM1564 / C17_ACT1564,
@@ -70,8 +70,8 @@ variables_finales <-
     "categorie_part_cadres", "categorie_arrondissement"    
     )
 
-data_iris_paris <- 
-  as.data.frame(data_iris_paris[, .SD, .SDcols = variables_finales])
+data_iris_paris2017 <- 
+  as.data.frame(data_iris_paris2017[, .SD, .SDcols = variables_finales])
 
 # Sauvegarder les données
-save(data_iris_paris, file = "data/data_iris_paris.rda")
+save(data_iris_paris2017, file = "data/data_iris_paris2017.rda")
