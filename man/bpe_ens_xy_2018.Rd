@@ -4,7 +4,7 @@
 \encoding{UTF-8}
 \name{bpe_ens_xy_2018}
 \alias{bpe_ens_xy_2018}
-\title{Base de données Base Permanentes des Équipements Géolocalisés}
+\title{Base Permanente des Équipements Géolocalisés 2018}
 \format{
 Une table de 2 504 782 lignes et 9 variables
 \describe{

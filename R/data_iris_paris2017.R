@@ -1,6 +1,6 @@
-#' Base de données données sociales sur les IRIS de Paris
+#' Données sociales sur les IRIS de Paris 2017
 #' 
-#' Cette table est un jeu de données sociales sur les iris de Paris n 2017, construit à partir de données de l'Insee.
+#' Cette table est un jeu de données sociales sur les iris de Paris en 2017, construit à partir de données de l'Insee.
 #'
 #' @format Une table de 871 lignes et 54 variables
 #' \describe{
@@ -63,4 +63,3 @@
 #' @source \url{https://www.insee.fr/fr/statistiques/fichier/4479212/BASE_TD_FILO_DISP_IRIS_2017.xlsx}
 #' @source \url{https://www.insee.fr/fr/statistiques/fichier/4799323/base-ic-activite-residents-2017.zip}
 "data_iris_paris2017"
-

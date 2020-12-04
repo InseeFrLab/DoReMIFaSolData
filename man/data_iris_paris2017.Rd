@@ -3,7 +3,7 @@
 \docType{data}
 \name{data_iris_paris2017}
 \alias{data_iris_paris2017}
-\title{Base de données données sociales sur les IRIS de Paris}
+\title{Données sociales sur les IRIS de Paris}
 \format{
 Une table de 871 lignes et 54 variables
 \describe{
