@@ -7,7 +7,7 @@ Authors@R: c(
   )
 Description: Datasets from Insee's Website.
 Depends: R (>= 3.5.0)
-Suggests: doremifasol
+Suggests: doremifasol, knitr
 Remotes: InseeFrLab/doremifasol
 License: MIT + file LICENSE
 LazyData: true

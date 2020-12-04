@@ -5,3 +5,4 @@
 ^CONTRIBUTING.md$
 ^.idea$
 ^.github
+^README\.Rmd$
