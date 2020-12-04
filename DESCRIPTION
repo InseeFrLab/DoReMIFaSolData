@@ -3,6 +3,7 @@ Title: Companion to DoReMIFaSol Data Sets
 Version: 0.1.1
 Authors@R: c(
   person("Pierre", "Lamarche", email = "pierre.lamarche@insee.fr", role = c("aut", "cre")),
+  person("Pierre-Yves", "Berrard", role = "aut", email = "pierre-yves.berrard@insee.fr"),
   person(family = "Institut National de la Statistique et des Études Économiques", role = "cph")
   )
 Description: Datasets from Insee's Website.
