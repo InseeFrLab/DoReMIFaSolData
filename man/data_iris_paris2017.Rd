@@ -3,7 +3,7 @@
 \docType{data}
 \name{data_iris_paris2017}
 \alias{data_iris_paris2017}
-\title{Données sociales sur les IRIS de Paris}
+\title{Données sociales sur les IRIS de Paris 2017}
 \format{
 Une table de 871 lignes et 54 variables
 \describe{
@@ -72,6 +72,6 @@ Une table de 871 lignes et 54 variables
 data_iris_paris2017
 }
 \description{
-Cette table est un jeu de données sociales sur les iris de Paris n 2017, construit à partir de données de l'Insee.
+Cette table est un jeu de données sociales sur les iris de Paris en 2017, construit à partir de données de l'Insee.
 }
 \keyword{datasets}

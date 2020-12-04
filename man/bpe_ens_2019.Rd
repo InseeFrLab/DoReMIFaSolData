@@ -3,7 +3,7 @@
 \docType{data}
 \name{bpe_ens_2019}
 \alias{bpe_ens_2019}
-\title{Base Permanentes des Équipements 2019}
+\title{Base Permanente des Équipements 2019}
 \format{
 Une table de 1 048 576 lignes et 7 variables
 \describe{
