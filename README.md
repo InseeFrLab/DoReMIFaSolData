@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# DoReMIFaSolData
+# doremifasolData
 
 <!-- badges: start -->
 
@@ -9,7 +9,7 @@
 <!-- badges: end -->
 
 Données associées au package
-[DoReMIFaSol](https://github.com/InseeFrLab/DoReMIFaSol).
+[doremifasol](https://inseefrlab.github.io/DoReMIFaSol/).
 
 ## Installation
 
@@ -33,3 +33,6 @@ remotes::install_github("InseeFrLab/doremifasolData")
 | filosofi\_com\_2016   | Données sur les revenus et la pauvreté en 2016, niveau communal |
 | filosofi\_epci\_2015  | Données sur les revenus et la pauvreté en 2015, niveau EPCI     |
 | filosofi\_epci\_2016  | Données sur les revenus et la pauvreté en 2016, niveau EPCI     |
+
+[Documentation
+détaillée](https://inseefrlab.github.io/DoReMIFaSolData/reference)

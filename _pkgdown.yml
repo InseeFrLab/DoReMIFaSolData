@@ -9,6 +9,6 @@ navbar:
      
 reference:
   - title: "Données disponibles"
-    desc: "(cliquer sur un jeu de donnéees pour afficher sa documentation complète)"
+    desc: "(cliquer sur un jeu de données pour afficher sa documentation complète)"
     contents:
       - matches(".+")

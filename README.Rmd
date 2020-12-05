@@ -4,13 +4,13 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# DoReMIFaSolData
+# doremifasolData
 
 <!-- badges: start -->
 ![DoReMIFaSol](https://github.com/inseefrlab/doremifasolData/workflows/build-artifacts/badge.svg)
 <!-- badges: end -->
 
-Données associées au package [DoReMIFaSol](https://github.com/InseeFrLab/DoReMIFaSol).
+Données associées au package [doremifasol](https://inseefrlab.github.io/DoReMIFaSol/).
 
 
 ## Installation
@@ -42,3 +42,5 @@ knitr::kable(
   row.names = FALSE
 )
 ```
+
+[Documentation détaillée](https://inseefrlab.github.io/DoReMIFaSolData/reference)
