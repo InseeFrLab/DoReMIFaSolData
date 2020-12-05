@@ -6,13 +6,13 @@ Cette page explique comment proposer une modification de **`doremifasolData`**.
 
 ### Vérifier l'existence dans le package `doremifasol`
 
-Tout jeu de données du package doit être également récupérable par téléchargement avec le package [`doremifasol`](https://github.com/InseeFrLab/DoReMIFaSol).
+Tout jeu de données du package doit être également récupérable par téléchargement avec le package [`doremifasol`](https://inseefrlab.github.io/DoReMIFaSol).
 
 Il faut donc s'assurer au préalable de son existence. Cette vérification peut être réalisée avec `doremifasol::donnees_dispo()`.
 
 Si la source n'est pas disponible, commencer par suggérer son ajout en créant une [_issue_](https://github.com/InseeFrLab/DoReMIFaSol/issues/new?template=suggerer_source.md) sur le dépôt **`doremifasol`**.
 
-Il est important de garder à l'esprit que **`doremifasolData`** n'a vocation qu'à héberger qu'une partie jeux de données récupérables via **`doremifasol`**, ceci principalement à des fins pédagogiques. En cas de doute sur la pertinence de l'ajout, créer une _issue_ pour en discuter.
+Il est important de garder à l'esprit que **`doremifasolData`** n'a vocation à héberger qu'une partie des jeux de données récupérables via **`doremifasol`**, ceci principalement à des fins pédagogiques. En cas de doute sur la pertinence de l'ajout, créer une _issue_ pour en discuter.
 
 ### Intégrer le jeu de données au package
 
