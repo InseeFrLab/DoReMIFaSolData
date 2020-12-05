@@ -1,0 +1,14 @@
+navbar:
+  left:
+    - text: "Données (détail)"
+      href: reference/index.html
+  right:
+    - text: Contribuer
+      href: https://github.com/InseeFrLab/DoReMIFaSolData
+      icon: fa-github
+     
+reference:
+  - title: "Données disponibles"
+    desc: "(cliquer sur un jeu de donnéees pour afficher sa documentation complète)"
+    contents:
+      - matches(".+")

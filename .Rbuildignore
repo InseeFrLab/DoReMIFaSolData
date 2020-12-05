@@ -4,5 +4,8 @@
 ^\.travis\.yml$
 ^CONTRIBUTING.md$
 ^.idea$
-^.github
+^\.github$
 ^README\.Rmd$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
