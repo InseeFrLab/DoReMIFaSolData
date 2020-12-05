@@ -5,11 +5,16 @@
 
 <!-- badges: start -->
 
-![DoReMIFaSol](https://github.com/inseefrlab/doremifasolData/workflows/build-artifacts/badge.svg)
+![build-artifacts](https://github.com/inseefrlab/doremifasolData/workflows/build-artifacts/badge.svg)
 <!-- badges: end -->
 
-Données associées au package
-[doremifasol](https://inseefrlab.github.io/DoReMIFaSol/).
+`doremifasolData` est un package de données qui met à disposition un
+petit nombre de jeux de données téléchargeables avec le package
+[`doremifasol`](https://inseefrlab.github.io/DoReMIFaSol/).
+
+La finalité principale est de pouvoir utiliser ces données à des fins
+pédagogiques, notamment pour construire des exemples reproductibles
+sans avoir recours à un téléchargement sur Internet.
 
 ## Installation
 
@@ -18,6 +23,12 @@ Installer le package depuis GitHub :
 ``` r
 # install.packages("remotes")
 remotes::install_github("InseeFrLab/doremifasolData")
+```
+
+## Chargement
+
+``` r
+library(doremifasolData)
 ```
 
 ## Jeux de données disponibles
