@@ -16,5 +16,5 @@ LazyData: true
 RoxygenNote: 7.1.1
 Roxygen: list(markdown = TRUE)
 Encoding: UTF-8
-URL: https://github.com/InseeFrLab/DoReMIFaSolData
+URL: https://InseeFrLab.github.io/DoReMIFaSolData, https://github.com/InseeFrLab/DoReMIFaSolData
 BugReports: https://github.com/InseeFrLab/DoReMIFaSolData/issues
