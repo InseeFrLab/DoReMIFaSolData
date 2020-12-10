@@ -7,6 +7,7 @@ Authors@R: c(
   person(family = "Institut National de la Statistique et des Études Économiques", role = "cph")
   )
 Description: Datasets from Insee's Website.
+Language: fr
 Depends: R (>= 3.5.0)
 Suggests: doremifasol, knitr
 Remotes: InseeFrLab/doremifasol
