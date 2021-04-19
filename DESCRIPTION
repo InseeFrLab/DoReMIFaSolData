@@ -1,6 +1,6 @@
 Package: doremifasolData
 Title: Companion to DoReMIFaSol Data Sets
-Version: 0.2.0
+Version: 0.2.0.9000
 Authors@R: c(
   person("Pierre", "Lamarche", email = "pierre.lamarche@insee.fr", role = c("aut", "cre")),
   person("Pierre-Yves", "Berrard", role = "aut", email = "pierre-yves.berrard@insee.fr"),
