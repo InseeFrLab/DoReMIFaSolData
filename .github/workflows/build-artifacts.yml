@@ -35,7 +35,6 @@ jobs:
         run: |
           install.packages(c("rcmdcheck", "httpuv", "devtools"))
           remotes::install_deps(dependencies = TRUE)
-          remotes::install_github("inseeFrLab/doremifasol")
         shell: Rscript {0}
       - name: Check
         run: rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
@@ -55,11 +54,11 @@ jobs:
         if: runner.os == 'Windows'
         uses: actions/upload-artifact@v2
         with:
-          name: doremifasol_${PKGVERSION}_r${{ matrix.config.r-version }}.zip
+          name: doremifasolData_${PKGVERSION}_r${{ matrix.config.r-version }}.zip
           path: dist/
       - name: Upload artifacts - source
         if: runner.os == 'Linux'
         uses: actions/upload-artifact@v2
         with:
-          name: doremifasol_${PKGVERSION}_r${{ matrix.config.r-version }}.tar.gz
+          name: doremifasolData_${PKGVERSION}_r${{ matrix.config.r-version }}.tar.gz
           path: dist/

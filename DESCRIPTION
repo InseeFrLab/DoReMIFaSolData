@@ -9,8 +9,7 @@ Authors@R: c(
 Description: Datasets from Insee's Website.
 Language: fr
 Depends: R (>= 3.5.0)
-Suggests: doremifasol, knitr
-Remotes: InseeFrLab/doremifasol
+Suggests: knitr
 License: MIT + file LICENSE
 LazyData: true
 RoxygenNote: 7.1.1
