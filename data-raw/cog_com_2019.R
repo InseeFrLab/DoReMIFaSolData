@@ -18,6 +18,10 @@
 #' }
 #' 
 #' @source \url{https://www.insee.fr/fr/information/3720946}
+#' 
+
+library(doremifasol)
+
 cog_com_2019 <- telechargerDonnees(donnees = "COG_COMMUNE", date = "2019", col_types = "ccccccccccc")
 Encoding(cog_com_2019$ncc) <- "UTF-8"
 Encoding(cog_com_2019$nccenr) <- "UTF-8"

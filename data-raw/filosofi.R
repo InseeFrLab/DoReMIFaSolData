@@ -1,4 +1,6 @@
 ## Filosofi
+library(doremifasol)
+
 ##2015
 # niveau communal
 filosofi_com_2015 <- telechargerDonnees(donnees = "FILOSOFI_COM", date = "2015")
