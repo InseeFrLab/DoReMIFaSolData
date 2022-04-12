@@ -4,7 +4,7 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# doremifasolData
+# :package: doremifasolData
 
 <!-- badges: start -->
 ![build-artifacts](https://github.com/inseefrlab/doremifasolData/workflows/build-artifacts/badge.svg)
@@ -19,7 +19,7 @@ La finalité principale est de pouvoir utiliser ces données à des fins pédago
 
 Installer le package depuis GitHub :
 
-``` r
+```r
 # install.packages("remotes")
 remotes::install_github("InseeFrLab/doremifasolData")
 ```
@@ -27,7 +27,7 @@ remotes::install_github("InseeFrLab/doremifasolData")
 
 ## Chargement
 
-``` r
+```r
 library(doremifasolData)
 ```
 
@@ -43,8 +43,8 @@ prem_lignes <-
     FUN.VALUE = character(1)
   )
 
-Nom <- sub("^(.+)\\.R$", "\\1", names(prem_lignes))[Nom!="doremifasolData_exemple"]
-Description <- sub("^#' +(.+)$", "\\1", prem_lignes)[Nom!="doremifasolData_exemple"]
+Nom <- sub("^(.+)\\.R$", "\\1", names(prem_lignes))[names(prem_lignes)!="doremifasolData_exemple"]
+Description <- sub("^#' +(.+)$", "\\1", prem_lignes)[names(prem_lignes)!="doremifasolData_exemple"]
 
 knitr::kable(
   data.frame(Nom, Description),
@@ -52,4 +52,15 @@ knitr::kable(
 )
 ```
 
-[Documentation détaillée](https://inseefrlab.github.io/DoReMIFaSolData/reference)
+## Fonction disponible
+
+`doremifasolData` est livré avec un certain nombre de fichiers plats dans le répertoire `inst/extdata`.  
+La fonction [`doremifasolData_exemple()`](https://inseefrlab.github.io/DoReMIFaSolData/docs/reference/doremifasolData_exemple.html) en facilite leur accès en retournant leurs chemins.
+
+Cette fonction est particulièrement pour constituer des exemples reproductibles par exemple avec les
+fonctions `read_csv()` et `read_delim()` du package [{readr}](https://readr.tidyverse.org/reference/read_delim.html) ou encore la fonction `fread()` du package
+[{data.table}](https://www.rdocumentation.org/packages/data.table/versions/1.14.2/topics/fread).  
+Pour en savoir plus, consulter [cette page](https://www.book.utilitr.org/importcsv.html).  
+
+
+[Voir ici la documentation détaillée](https://inseefrlab.github.io/DoReMIFaSolData/reference)

@@ -8,15 +8,15 @@ navbar:
       icon: fa-github
      
 reference:
-  - title: "Données disponibles"
-    desc: "(cliquer sur un jeu de données pour afficher sa documentation complète)"
+  - title: Données disponibles
+    desc: Cliquer sur un jeu de données pour afficher sa documentation complète
     contents:
       - bpe_ens_2018
       - cog_com_2019
       - data_iris_paris_2017
       - filosofi_com_2016
       - filosofi_epci_2016
-  - title: "Fonction d'extraction"
-    desc: "Ce package contient une fonction d'extraction qui récupére le chemin vers les fichiers plats contenus dans `inst/extdata`"
+  - title: Fonction doremifasolData_exemple
+    desc: Fonction qui facilite l'accès aux fichiers plats
     contents:
       - doremifasolData_exemple
