@@ -1,7 +1,7 @@
 #' Récupérer le chemin vers les fichiers exemples de DoremifasolData
 #'
 #' {DoremifasolData} est livré avec un certain nombre de fichiers 
-#' (plats ou issus de tableurs) dans le répertoire `inst/extdata`
+#' plats dans le répertoire `inst/extdata`
 #' Cette fonction en facilite leur accès en retournant leurs chemins.
 #'
 #' @param fichier Nom du fichier. Si `NULL`, les fichiers exemples sont listés.
