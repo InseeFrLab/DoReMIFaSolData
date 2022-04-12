@@ -43,8 +43,8 @@ prem_lignes <-
     FUN.VALUE = character(1)
   )
 
-Nom <- sub("^(.+)\\.R$", "\\1", names(prem_lignes))
-Description <- sub("^#' +(.+)$", "\\1", prem_lignes)
+Nom <- sub("^(.+)\\.R$", "\\1", names(prem_lignes))[Nom!="doremifasolData_exemple"]
+Description <- sub("^#' +(.+)$", "\\1", prem_lignes)[Nom!="doremifasolData_exemple"]
 
 knitr::kable(
   data.frame(Nom, Description),
