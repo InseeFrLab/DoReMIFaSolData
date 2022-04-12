@@ -1,4 +1,4 @@
-#' Récupérer le chemin vers les fichiers exemples de DoremifasolData
+#' Récupérer le chemin vers les fichiers plats contenus dans  `inst/extdata`
 #'
 #' {DoremifasolData} est livré avec un certain nombre de fichiers 
 #' plats dans le répertoire `inst/extdata`

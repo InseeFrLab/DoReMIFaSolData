@@ -2,7 +2,7 @@
 % Please edit documentation in R/doremifasolData_exemple.R
 \name{doremifasolData_exemple}
 \alias{doremifasolData_exemple}
-\title{Récupérer le chemin vers les fichiers exemples de DoremifasolData}
+\title{Récupérer le chemin vers les fichiers plats contenus dans  \code{inst/extdata}}
 \usage{
 doremifasolData_exemple(fichier = NULL)
 }
@@ -11,7 +11,7 @@ doremifasolData_exemple(fichier = NULL)
 }
 \description{
 {DoremifasolData} est livré avec un certain nombre de fichiers
-(plats ou issus de tableurs) dans le répertoire \code{inst/extdata}
+plats dans le répertoire \code{inst/extdata}
 Cette fonction en facilite leur accès en retournant leurs chemins.
 }
 \examples{
