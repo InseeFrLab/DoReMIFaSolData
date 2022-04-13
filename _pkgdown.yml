@@ -1,6 +1,6 @@
 navbar:
   left:
-    - text: "Données (détail)"
+    - text: "Données (détail) et fonction"
       href: reference/index.html
   right:
     - text: Contribuer
@@ -8,7 +8,11 @@ navbar:
       icon: fa-github
      
 reference:
-  - title: "Données disponibles"
-    desc: "(cliquer sur un jeu de données pour afficher sa documentation complète)"
+  - title: Données disponibles
+    desc: Cliquer sur un jeu de données pour afficher sa documentation complète
     contents:
-      - matches(".+")
+      - matches("\\d{4}$")
+  - title: Fonction doremifasolData_exemple
+    desc: Fonction qui facilite l'accès aux fichiers plats
+    contents:
+      - doremifasolData_exemple
